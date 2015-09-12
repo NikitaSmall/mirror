@@ -1,0 +1,6 @@
+AuthUserFile /home/nikitasmall/server/php-works/mirror/admin/.httpasswrd
+AuthName 'Введите пароль для входа на страницу администратора'
+AuthType Basic
+require valid-user
+
+AddDefaultCharset UTF-8

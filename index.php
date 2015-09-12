@@ -5,6 +5,14 @@
   $nikitasmall = $user->get_user(1);
 ?>
 
-<pre>
-  <?php var_dump($nikitasmall) ?>
-</pre>
+<html>
+  <head>
+    <title>Зазеркалье</title>
+
+  </head>
+  <body>
+    <pre>
+      <?php var_dump($nikitasmall) ?>
+    </pre>
+  </body>
+</html>
