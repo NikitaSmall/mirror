@@ -1,4 +1,5 @@
 <?php
+  require_once 'models/helpers.php';
 
   class DataBase {
     var $connection;
