@@ -16,12 +16,12 @@
     if($free_mail) {
       $userModel->add_user($real_name, $email, $phone, $password);
       $user = $userModel->check_user($email, $password);
-      
+
       $_SESSION['user_id'] = $user['id'];
-      redirect('/');
+      redirect('/profile.php');
     } else {
       $_SESSION['message'] = 'Этот email уже используется!';
-      redirect('/');
+      redirect('/profile.php');
     }
   }
 

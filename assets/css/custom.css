@@ -1,0 +1,700 @@
+/* -- custom css for Bootstrap 3.x --*/
+@media (max-width: 1195px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+
+        max-height: 340px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    .container-fluid {
+        max-height: 370px;
+    }
+}
+
+body {
+    background-color: #35b5b8;  /*  Бирюзовый  */
+}
+a {
+    text-decoration: none;
+}
+input {
+    margin: 8px 8px 8px 8px;
+    width: 100%;
+    height: 36px;
+    color: black;
+}
+input[type=submit]{
+    padding:0px 4px 0px 0px;
+    margin: 2px 0px;
+}
+
+.transp
+{
+    font-family: kelly_slab;
+    font-size: large;
+}
+
+@font-face {
+    font-family: kelly_slab; /* Имя шрифта */
+    src: url(../fonts/kelly_slab_regular.otf); /* Путь к файлу со шрифтом */
+}
+
+.black_fon {
+    /*background-color: #000000;*/
+    background: url(../pictures/fon_black.png);
+    background-position: left bottom; /* Положение фона */
+    background-repeat: repeat-y; /* Повторяем фон по горизонтали */
+    background-size: contain; /* Реальный размер фона */
+    padding-bottom: 20px;
+}
+
+.sp {
+    margin-left: 30px;
+    margin-right: 130px;
+}
+
+.navbar-default {
+    /*background-color:transparent  !important;*/
+    border-color:transparent  !important;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    background-color:transparent  !important;
+    background: url(../pictures/line.png) no-repeat left bottom;
+    border-right-right: 10px;
+}
+.navbar-brand { background: url(../pictures/cabinet.png) no-repeat left bottom;}
+
+#facebook {
+    background: url(../pictures/m_facebook_off_w.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 50px; /* Ширина рисунка */
+    height: 50px; /*  Высота рисунка */
+}
+
+#instagram {
+    background: url(../pictures/m_instagram_off_w.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 50px; /* Ширина рисунка */
+    height: 50px; /*  Высота рисунка */
+}
+
+#vk {
+    background: url(../pictures/m_vk_off_w.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 50px; /* Ширина рисунка */
+    height: 50px; /*  Высота рисунка */
+}
+
+#tripad {
+    background: url(../pictures/m_tripad_off_w.png); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 50px; /* Ширина рисунка */
+    height: 50px; /*  Высота рисунка */
+
+}
+
+a#tripad:hover { background: url(../pictures/m_tripad_on_w.png);} /* Путь к файлу с исходным рисунком  */
+a#vk:hover { background: url(../pictures/m_vk_on_w.png);} /* Путь к файлу с исходным рисунком  */
+a#facebook:hover { background: url(../pictures/m_facebook_on_w.png);} /* Путь к файлу с исходным рисунком  */
+a#instagram:hover { background: url(../pictures/m_instagram_on_w.png);} /* Путь к файлу с исходным рисунком  */
+
+#arrow {
+    background: url(../pictures/rect.png); /* Квадрат  */
+    display: block; /*  Рисунок как блочный элемент */
+    margin-left: 80px;
+    width: 65px; /* Ширина рисунка */
+    height: 65px; /*  Высота рисунка */
+}
+
+#arrow_poz {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 70px; /* Левый нижний угол */
+    width: 100%; /* Ширина слоя */
+    z-index: 9999; /*устанавливаем блок поверх всех элементов на странице*/
+}
+.arrow_center {   /* Центровка по середине длока */
+    text-align: center;
+}
+
+a#arrow:hover { background: url(../pictures/rec_sumt.png);}
+
+.callout_1 {
+   height: 900px;
+    background: url(../pictures/fon-image1.jpg) no-repeat center ;
+    background-size: cover;
+    margin-top: 52px;
+}
+
+.callout_2 {
+    height: 900px;
+    background: url(../pictures/fon-image2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.callout_3 {
+    height: 900px;
+    background-color: #35b5b8;  /*  Бирюзовый  */
+    background: url(../pictures/fon-image3.png) no-repeat center;
+    background-size: cover;
+    background-size: 100% auto;
+    /*margin-top: 52px;*/
+}
+
+.callout_4 {
+    height: 1200px;
+    background: url(../pictures/raspisanie.png) no-repeat center;
+    background-size: cover;
+    /*margin-top: 52px;*/
+}
+
+.callout_5 {
+    height: 900px;
+    background: url(../pictures/fon_man.png) no-repeat center ;
+    background-size: cover;
+    margin-top: 12px;
+    background-size: 100% auto;
+}
+
+
+#social_box {
+    position: fixed; /* Фиксированное положение */
+    width: 100%;
+    top: 90px;
+    z-index: 9088;
+}
+
+.tm-white {color: #fff;}
+
+.text1 {
+    margin-top:600px;
+    /*color: white;*/
+    font-family: kelly_slab;
+    text-align: center;
+}
+
+/*----------------------------------- Аватар  ----------------------------------------------------------*/
+/*Фото */
+.picture_av_1 {
+    width:100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+/*Рамка */
+.picture_av_2 {
+    width:100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+
+/* Вырезать часть картинки */
+.p_left {
+    padding: 0px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    /*margin-top: 262px;*/
+    /*margin-left: -92px;*/
+    /*background: url(../pictures/mer_goroda.png) no-repeat;*/
+    /*background-size: cover;*/
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    shape-outside: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+}
+
+
+.regist_1 {
+    /*height: 900px;*/
+    /*background: url(../pictures/cabinet_fon_1.png);*/
+    /*background-position: left bottom; /!* Положение фона *!/*/
+    /*background-repeat: repeat-y; /!* Повторяем фон по горизонтали *!/*/
+    /*background-size: contain; /!* Реальный размер фона *!/*/
+
+}
+
+.otstup{ margin-top:90px;}
+.otstup_2{margin-top: -8px;}
+.otstup_3 { margin-top:10px;}
+.otstup_4 { margin-top:50px;}
+.otstup_5 { margin-top:70px;}
+.otstup_6 { margin-top:240px;}
+.line_1 { height: 1px; background-color: white}
+.inside_otstup_4 {padding-top: 30px;}
+
+.reg_block_1 {border-color:#ffffff;}
+
+.remem {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    float: right;
+    background: url(../pictures/green_romb.png) no-repeat left bottom;
+    text-decoration: none; /* Убираем подчёркивание */
+    padding-bottom: 12px;
+    /*padding-top: 8px;*/
+    padding-left:14px;
+    margin-left: -14px;
+    background-color:transparent;
+    border-right-right: 10px;
+    color: #326264;
+
+}
+
+.remem:hover {
+    background: url(../pictures/green_romb_on.png) no-repeat left bottom;
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #35b5b8;
+}
+
+.remem_2 {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    background: url(../pictures/line_romb_off.png) no-repeat right bottom;
+    text-decoration: none; /* Убираем подчёркивание */
+    padding-bottom: 12px;
+    padding-left:2px;
+    margin-left: 8px;
+    background-color:transparent;
+    color: #326264;
+    font-size: 16pt; /* Размер шрифта в пунктах */
+}
+.remem_2:hover {
+     background: url(../pictures/line_romb_on.png) no-repeat right bottom;
+     text-decoration: none; /* Убираем подчёркивание */
+     color: #35b5b8;
+ }
+
+.remem_3 {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    /*background: url(../pictures/green_romb.png) no-repeat left bottom;*/
+    text-decoration: none; /* Убираем подчёркивание */
+    /*padding-bottom: 12px;*/
+    /*padding-top: 8px;*/
+    /*padding-left:10px;*/
+    /*padding-right:10px;*/
+    /*margin-left: -14px;*/
+    background-color:transparent;
+    border:none !important;
+    color: #326264;
+}
+.remem_3:hover {
+    /*background: url(../pictures/green_romb_on.png) no-repeat left bottom;*/
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #35b5b8;
+    border:none;
+}
+
+.remem_3:focus {
+    border:none;
+}
+
+.remem_3:active {
+    border:none;
+}
+
+input button [type="submit"] {
+    border: none;
+}
+
+.remem_4 {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    background: url(../pictures/green_romb.png) no-repeat left bottom;
+    text-decoration: none; /* Убираем подчёркивание */
+    padding-bottom: 12px;
+    color: #326264;
+}
+.remem_4:hover {
+    background: url(../pictures/green_romb_on.png) no-repeat left bottom;
+    text-decoration: none; /* Убираем подчёркивание */
+    color: #35b5b8;
+}
+.table_container {
+    padding-top:20px;
+    padding-left: 60px;
+    padding-right:60px;
+
+}
+
+.tab_header {
+   weight: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: white;
+    font-family: kelly_slab;
+    /*font-size: 16pt; /!* Размер шрифта в пунктах *!/*/
+    background: url(../pictures/line_romb_on_2.png) no-repeat right bottom;
+    -moz-background-size:cover;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+
+/*Переопределение свойств таблицы*/
+.table > tbody > tr > td {
+    border-top: 0px solid ;
+    padding-bottom: 2px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/*Первая строка таблицы*/
+.row_01 {
+    /*height: 54px;*/
+    color:white;
+    /*padding-bottom: 52px;*/
+    /*border-bottom: 1px solid #ffffff;*/
+}
+
+.ten {
+    color: #c0c0c0;
+}
+
+/*1-я  ячейка в строке, 1-я строка*/
+#col_01 {  }
+
+/*одчёркивание стрелка*/
+.under_1 {
+    height: 15px;
+    margin-top: -4px;
+    background: url(../pictures/line_under_right_short.png) no-repeat right bottom;
+}
+
+.under_2 {
+    height: 15px;
+    margin-top: -4px;
+    background: url(../pictures/line_under_left_longt.png) no-repeat left bottom;
+}
+
+.under_3 {
+    height: 15px;
+    margin-top: -4px;
+    background: url(../pictures/line_under.png) no-repeat left bottom;
+}
+
+.under_4 {
+    height: 15px;
+    margin-top: -4px;
+    background: url(../pictures/line_under_right_end.png) no-repeat right bottom;
+}
+
+.under_5 {
+    height: 15px;
+    margin-top: -4px;
+    background: url(../pictures/line_under_right_long.png) no-repeat right bottom;
+}
+
+.under_6 {
+    height: 15px;
+    margin-top: -4px;
+    background: url(../pictures/line_under_left_endt.png) no-repeat left bottom;
+}
+
+.empt {
+    height: 15px;
+    margin-top: -4px;
+    background: url(../pictures/empty.png) no-repeat left bottom;
+}
+
+.price_1 {
+    position: absolute;
+    left: 0px;
+    top: 2px;
+    font-size: 8pt;
+    color: #000000;
+}
+
+.mer_01 {
+    color: #ffffff;
+    margin-top: 0px;
+}
+.mer_02 {
+    color: #737373; /*Серый цвет*/
+}
+.undo_1 {
+    float: right;
+    color: #ffffff;
+    margin-top: -62px;
+    margin-right: 40px;
+    background: url(../pictures/whight_romb.png) no-repeat left bottom;
+
+}
+
+.img_history {
+   float: left;
+   width: 130px;
+   height: 130px;
+    padding: 6px;
+    /*border: 1px solid color: #black;*/
+}
+
+.text_quest {
+    margin-top: 625px;
+    padding-top:18px;
+    padding-bottom: 18px;
+    padding-right: 180px;
+    padding-left: 180px;
+    color: #ffffff;
+    opacity: 0.5; /* Полупрозрачный фон */
+    background-color: black;
+    font-family: kelly_slab;
+}
+.social_box_2 {margin-top: 30px;}
+.text_12 { margin-left: 40px; color:#b6b9b9; padding-left: 8px;}
+.text_13 { margin-left: 40px; margin-top: 90px; color:#b6b9b9; padding-left: 8px;}
+.text_14 { margin-top: 0px; }
+.text_15 { margin-top: 0px;color:#b6b9b9;  }
+.text_16 { margin-top:80px;color:#b6b9b9;  }
+.text_17 { margin-left: 40px; padding-left: 8px; }
+
+#button_exit {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    float: right;
+    width:60px;
+    height:60px;
+    margin-top:-50px;
+    background: url(../pictures/squard_int.png) ;
+    background-size: cover;
+}
+a#button_exit:hover {
+    background: url(../pictures/squard_out.png) ;
+    background-size: cover;
+}
+
+#button_exit_2 {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    float: right;
+    width:60px;
+    height:60px;
+    margin-top:160px;
+    margin-right: 80px;
+    background: url(../pictures/squard_int.png) ;
+    background-size: cover;
+}
+a#button_exit_2:hover {
+    background: url(../pictures/squard_out.png) ;
+    background-size: cover;
+}
+
+#button_exit_3 {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    float: right;
+    width:60px;
+    height:60px;
+    margin-top:160px;
+    margin-right: 60px;
+    background: url(../pictures/squard_int.png) ;
+    background-size: cover;
+}
+a#button_exit_3:hover {
+    background: url(../pictures/squard_out.png) ;
+    background-size: cover;
+}
+#button_exit_4 {
+    display: inline-block; /*  Ссылкак как блочный элемент */
+    float: right;
+    width:60px;
+    height:60px;
+    margin-top:160px;
+    margin-right: 60px;
+    background: url(../pictures/squard_int.png) ;
+    background-size: cover;
+}
+a#button_exit_4:hover {
+    background: url(../pictures/squard_out.png) ;
+    background-size: cover;
+}
+#polosa {
+    position: absolute;
+    display: none;
+    /*top: 200px;*/
+    left:0px;
+    z-index: 9999; /*устанавливаем блок поверх всех элементов на странице*/
+}
+#polosa_2 {
+    position: absolute;
+    display: none;
+    /*top: 200px;*/
+    left:0px;
+    z-index: 9998; /*устанавливаем блок поверх всех элементов на странице*/
+}
+
+#polosa_3 {
+    position: absolute;
+    display: none;
+    /*top: 200px;*/
+    left:0px;
+    z-index: 9997; /*устанавливаем блок поверх всех элементов на странице*/
+}
+#polosa_4 {
+    position: absolute;
+    display: none;
+    /*top: 200px;*/
+    left:0px;
+    z-index: 9997; /*устанавливаем блок поверх всех элементов на странице*/
+}
+
+#picture_click_1 {
+    /*float:left; /!*как вариант можно использовать position:absolute;*!/*/
+    /*top:20%;*/
+    float: left;
+    width:40%;   /*задаем размеры кликабельной области*/
+    height:500px;
+    cursor: pointer; /*меняем рисунок курсора, чтобы показать кликабельность объекта*/
+}
+#picture_click_2 {
+    /*float:left; /!*как вариант можно использовать position:absolute;*!/*/
+    /*top:20%;*/
+   float: right;
+    width:40%;   /*задаем размеры кликабельной области*/
+    height:500px;
+    cursor: pointer; /*меняем рисунок курсора, чтобы показать кликабельность объекта*/
+}
+/*Центровка повертикали*/
+.vcenter {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+#triangle {
+    position: absolute;
+    /*top:0px;*/
+    width:40px;
+    height:20px;
+    left:0px;
+    background: url(../pictures/triangel.png) no-repeat left bottom;;
+    /*background-size:cover;*/
+    /*z-index: 9997;*/
+}
+#triangle_2 {
+    position: absolute;
+    /*top:0px;*/
+    width:40px;
+    height:20px;
+    left:0px;
+    background: url(../pictures/triangel.png) no-repeat left bottom;;
+    /*background-size:cover;*/
+    /*z-index: 9997;*/
+}
+#triangle_3 {
+    position: absolute;
+    /*top:0px;*/
+    width:40px;
+    height:20px;
+    left:0px;
+    background: url(../pictures/triangel.png) no-repeat left bottom;;
+    /*background-size:cover;*/
+    /*z-index: 9997;*/
+}
+#triangle_4 {
+    position: absolute;
+    /*top:0px;*/
+    width: 40px;
+    height: 20px;
+    left: 0px;
+    background: url(../pictures/triangel.png) no-repeat left bottom;
+}
+.pad_8 {
+    padding: 0px 32px;
+}
+
+.myul {
+    list-style: none;
+    padding-left: 0px;
+
+    /*width: 100%;*/
+}
+.myul li a {
+    display: block;
+    text-align: right;
+    color: #35b5b8;  /*  Бирюзовый  */
+    text-decoration: none;
+    padding-top:8px;
+    background: url(../pictures/gr_empty_right.png) no-repeat right 12px;
+    /*padding-right: 20px;*/
+    /*margin-right: 3px; }*/
+}
+.myul li a:active{
+    background: url(../pictures/gr.png) no-repeat right 12px;
+}
+.submit_1 {
+    color: #35b5b8;
+    width: 5em;
+    background: url(../pictures/gr_empty_left.png) no-repeat 14px 9px;
+    border:0 none;
+    cursor:pointer;
+    float: right;
+    text-align: right;
+}
+
+.submit_1:hover {
+    background: url(../pictures/gr_2.png) no-repeat 14px 9px;
+}
+
+.submit_2 {
+    color: #35b5b8;
+    width: 12em;
+    background: url(../pictures/gr_empty_left.png) no-repeat 26px 9px;
+    border:0 none;
+    cursor:pointer;
+    float: right;
+    text-align: right;
+}
+
+.submit_2:hover {
+    background: url(../pictures/gr_2.png) no-repeat 26px 9px;
+}
+
+
+#submit_4 {
+    color: #35b5b8;
+    width: 8em;
+    background: url(../pictures/gr_empty_left.png) no-repeat 14px 9px;
+    border:0 none;
+    cursor:pointer;
+    float: right;
+    text-align: right;
+
+}
+#submit_4:hover {
+    background: url(../pictures/gr_2.png) no-repeat 14px 9px;
+}
+.dispfall {
+    color:#326264;
+    padding-bottom: 12px;
+    padding-left: 100px;
+    background:none;
+    text-align: right;
+}

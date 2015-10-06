@@ -13,10 +13,10 @@
 
     if(isset($user)) {
       $_SESSION['user_id'] = $user['id'];
-      redirect('/');
+      redirect('/profile.php');
     } else {
       $_SESSION['message'] = 'Этого пользователя не существует!';
-      redirect('/');
+      redirect('/profile.php');
     }
   }
 
