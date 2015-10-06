@@ -62,6 +62,7 @@
     <div class="container">
         <div class="row otstup_3" style="color:black">
           <?php if (!empty($_SESSION['user_id'])) { ?>
+            <?php require './helpers/sessions.php' ?>
           <?php } else {?>
             <p> Войдите или зарегистрируйтесь, чтобы продолжить.</p>
           <?php } ?>
